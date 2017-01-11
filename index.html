@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Strelnikov Alexander</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+  <div class="wrap">
+    
+    <!-- Фон -->
+    <div id="background_color"></div>
+        
+    <!-- Стартовая страница -->
+    <div id="page_1">
+      
+       <!-- Полигональная анимация -->
+        <div id="particles-js"></div>
+        
+        <!-- Логотип -->    
+        
+        <!-- Длинные полосы -->
+        <svg id="svg_logo_long_lines" >
+            <path class="svg_logo_paths" d="M582 -1 L392 466" style="stroke-width:2"/>
+            <path class="svg_logo_paths" d="M156.6 1081 L492 260" style="stroke-width:2"/>
+        </svg>
+        
+        <!-- Левая часть -->
+        <div id="svg_logo_left_div">
+            <svg id="svg_logo_left" width="300px" height="210px"> 
+                <image id="svg_logo_img_left" xlink:href="images/logo_fill_left.png" x="0" y="13" height="170" width="163"/>
+                <path class="svg_logo_paths" d="M107.75 1 L23.9 207" style="stroke-width:2"/>
+                <path class="svg_logo_paths" d="M2 139 S1,167 34,178" style="stroke-width:4" fill="none"/>
+                <path class="svg_logo_paths" d="M66 99 S1,101 4,55 S79,11 95,28" style="stroke-width:4" fill="none"/>
+            </svg>
+        </div>
+        
+        <!-- Правая часть -->
+        <div id="svg_logo_right_div">
+            <svg id="svg_logo_right" width="300px" height="210px"> 
+                <image id="svg_logo_img_right" xlink:href="images/logo_fill_right.png" x="0" y="13" height="170" width="163"/>
+                <path class="svg_logo_paths" d="M40 207 L124 1" style="stroke-width:2"/>
+                <path class="svg_logo_paths" d="M197 207 L120 13" style="stroke-width:2"/>
+                <path class="svg_logo_paths" d="M54 180 L120 16 L185 180" style="stroke-width:4" fill="none"/>
+                <path class="svg_logo_paths" d="M75 125 L162 125" style="stroke-width:4" fill="none"/>
+                <path class="svg_logo_paths" d="M52 181 S99,181 110,150 S104,105 85,100" style="stroke-width:4" fill="none"/>
+                <text id="svg_logo_text_1" class="svg_logo_text" x="174" y="100" fill="white">Strelnikov</text>
+                <text id="svg_logo_text_2" class="svg_logo_text" x="174" y="130" fill="white">Alexander</text>
+            </svg>
+        </div>
+    </div>
+      
+    <div id="page_2">
+        <div id="menu_items">
+          
+            <svg id="svg_menu_items_id" class="svg_menu_items" width="1387px" height="142px">
+                <text id="svg_menu_about" class="svg_menu_items_text" x="900" y="140" fill="white">about</text>
+            </svg>
+            <svg class="svg_menu_items" width="1387px" height="142px">
+                <text id="svg_menu_works" class="svg_menu_items_text" x="850" y="140" fill="white">works</text>
+            </svg>
+            <svg class="svg_menu_items" width="1387px" height="142px">
+                <text id="svg_menu_clients" class="svg_menu_items_text" x="765" y="140" fill="white">clients</text>
+            </svg>
+            <svg class="svg_menu_items" width="1387px" height="142px">
+                <text id="svg_menu_contacts" class="svg_menu_items_text" x="595" y="140" fill="white">contacts</text>
+            </svg>
+            
+            <svg>
+                <defs>
+                    <clipPath id="clipPath_about">
+                        <text class="svg_menu_items_text" x="900" y="310">about</text>
+                    </clipPath>
+                    <clipPath id="clipPath_works">
+                        <text class="svg_menu_items_text" x="850" y="452">works</text>
+                    </clipPath>
+                    <clipPath id="clipPath_clients">
+                        <text class="svg_menu_items_text" x="765" y="594">clients</text>
+                    </clipPath>
+                    <clipPath id="clipPath_contacts">
+                        <text class="svg_menu_items_text" x="595" y="736">contacts</text>
+                    </clipPath>
+                </defs>
+            </svg>
+            
+        </div>
+        
+        <div id="background_white"></div>
+        <div id="background_color_mask"></div>
+        
+        <div id="menu_buttons">
+            <div id="menu_buttons_about"></div>
+            <div id="menu_buttons_works"></div>
+            <div id="menu_buttons_clients"></div>
+            <div id="menu_buttons_contacts"></div>
+        </div>
+    </div>
+    
+    <div id="page_3">
+      
+          <div id="page_menu_items">
+           
+            <svg id="page_svg_menu_items_id" class="page_svg_menu_items" width="974px" height="142px">
+                <text id="page_svg_menu_about" class="svg_menu_items_text" x="406" y="140" fill="white">about</text>
+            </svg>
+            <svg class="page_svg_menu_items" width="974px" height="142px">
+                <text id="page_svg_menu_works" class="svg_menu_items_text" x="349" y="140" fill="white">works</text>
+            </svg>
+            <svg class="page_svg_menu_items" width="974px" height="142px">
+                <text id="page_svg_menu_clients" class="svg_menu_items_text" x="292" y="140" fill="white">clients</text>
+            </svg>
+            <svg class="page_svg_menu_items" width="974px" height="142px">
+                <text id="page_svg_menu_contacts" class="svg_menu_items_text" x="236" y="140" fill="white">contacts</text>
+            </svg>
+            
+            <svg id="crossLine" width="454px" height="140px">
+                <path id="crossLine_path" d="M1 100 L453 100" style="stroke-width:3;stroke-linecap:round;stroke:white"/>
+            </svg>
+        </div>   
+                
+        <div id="content_background_white"></div>
+                
+        <div id="page_content">
+           
+            <svg>
+                <defs>
+                    <clipPath id="menu_item_clipPath">
+                        <text id="menu_item_clipPath_text" class="svg_menu_items_text" y="310"></text>
+                    </clipPath>
+                </defs>
+            </svg>
+            
+            <div id="content_background_color_mask" style=""></div>
+
+            <div id="content">
+                <div id="ct_about">
+                    <img id="face" src="images/face.png">
+                    <img id="about_text_prefix" src="images/txt_prefix.png">
+                    <img id="about_text" src="images/txt_main.png">
+                    <img id="about_text_postfix" src="images/txt_postfix.png">
+                </div>
+                <div id="ct_works">
+                    <div id="ct_works_wrap">
+                        <div id="ct_works_text_wrap">
+                            <p id="ct_works_text">Ознакомиться с некоторыми моими<br>работами вы можете скачав файл</p>
+                        </div>
+						<svg id="ct_works_svg" width="66px" height="160px">
+							<path id="ct_works_svg_path" d="M1 159 L65 1"/>
+						</svg>
+						<div id="ct_works_info">
+							<div id="ct_works_info_download">
+							    <img src="images/download.png" id="ct_works_info_download_img">
+                                <p id="download_text"><a href="downloads/Strelnikov_Alexander.ppsx" download>download</a>
+				            </div>
+						</div>
+					</div>
+                </div>
+                <div id="ct_clients">
+                    <img id="danone" src="images/clients/danone.png" alt="">
+                    <img src="images/clients/asus.png" alt="">
+                    <img src="images/clients/coca-cola.png" alt="">
+                    <img src="images/clients/lenovo.png" alt="">
+                    <img src="images/clients/milk.png" alt="">
+                    <img id="amway" src="images/clients/amway.png" alt="">
+                </div>
+                <div id="ct_contacts">
+                    <div id="ct_contacts_wrap">
+                        <div id="ct_contacts_text_wrap">
+                            <p id="ct_contacts_text">Связаться со мной</p>
+                        </div>
+						<svg id="ct_contacts_svg" width="66px" height="160px">
+							<path id="ct_contacts_svg_path" d="M1 159 L65 1"/>
+						</svg>
+						<div id="ct_contacts_info">
+							<div id="ct_contacts_info_phone"><img src="images/phone.png" id="ct_contacts_info_phone_img"><p>+38 (093) 428 58 75</p></div>
+							<div id="ct_contacts_info_mail"><img src="images/mail.png" id="ct_contacts_info_mail_img"><p>alxstrlnkv@gmail.com</p></div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+                
+                
+        <div id="page_menu_buttons" style="position:absolute;top:340px;width:974px;height:570px;z-index:10">
+            <div id="page_menu_buttons_about" style="float:right;width:730px;height:140px"></div>
+            <div id="page_menu_buttons_works" style="float:right;width:785px;height:140px"></div>
+            <div id="page_menu_buttons_clients" style="float:right;width:845px;height:140px"></div>
+            <div id="page_menu_buttons_contacts" style="float:right;width:900px;height:140px"></div>
+        </div>
+    </div>
+    
+    <!-- Основная полоса -->
+    <svg id="svg_line" ><!--width="1387px" height="1080px"-->
+        <path id="svg_line_path" d="M1386.5 -1 L947 1081" style="stroke-width:2"/>
+    </svg>
+    
+    <!-- Кнопка меню -->
+    <div id="menu">
+        <svg id="svg_menu" width="100px" height="76px">
+            <text id="svg_menu_text" x="0" y="50" fill="white">menu</text>
+        </svg>
+    </div>
+    <div id="svg_menu_lines_div">
+        <svg id="svg_menu_lines" width="42px" height="76px">
+            <path class="svg_menu_paths" d="M40.5 0 L10 75" style="stroke-width:2"/>
+            <path class="svg_menu_paths" d="M10 0 L40.5 75" style="stroke-width:2"/>
+        </svg>
+    </div>
+    
+  </div> <!-- wrap -->
+    
+  <script src="js/jquery-2.2.3.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+  
+  <script src="js/drawPath.js"></script>
+  <script src="js/animateClipPath.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
